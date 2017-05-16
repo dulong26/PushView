@@ -12,6 +12,15 @@
 		B63951AF1EC61FEB002CE685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63951AD1EC61FEB002CE685 /* Main.storyboard */; };
 		B63951B11EC61FEB002CE685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63951B01EC61FEB002CE685 /* Assets.xcassets */; };
 		B63951B41EC61FEB002CE685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63951B21EC61FEB002CE685 /* LaunchScreen.storyboard */; };
+		B65FB48C1ECA1BF100374132 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65FB48B1ECA1BF100374132 /* background1.jpg */; };
+		B65FB48E1ECA1C7F00374132 /* ViewLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB48D1ECA1C7F00374132 /* ViewLogin.swift */; };
+		B65FB4901ECAE05D00374132 /* ViewMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB48F1ECAE05D00374132 /* ViewMath.swift */; };
+		B65FB4961ECAE14B00374132 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FB4911ECAE14B00374132 /* board.png */; };
+		B65FB4971ECAE14B00374132 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65FB4921ECAE14B00374132 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		B65FB4981ECAE14B00374132 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FB4931ECAE14B00374132 /* note1.png */; };
+		B65FB4991ECAE14B00374132 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FB4941ECAE14B00374132 /* note2.png */; };
+		B65FB49A1ECAE14B00374132 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FB4951ECAE14B00374132 /* note3.png */; };
+		B6B75BCE1ECA097500DC5D40 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B75BCD1ECA097500DC5D40 /* zing-mp3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		B63951B01EC61FEB002CE685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B63951B31EC61FEB002CE685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B63951B51EC61FEB002CE685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65FB48B1ECA1BF100374132 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		B65FB48D1ECA1C7F00374132 /* ViewLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLogin.swift; sourceTree = "<group>"; };
+		B65FB48F1ECAE05D00374132 /* ViewMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMath.swift; sourceTree = "<group>"; };
+		B65FB4911ECAE14B00374132 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		B65FB4921ECAE14B00374132 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		B65FB4931ECAE14B00374132 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		B65FB4941ECAE14B00374132 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		B65FB4951ECAE14B00374132 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
+		B6B75BCD1ECA097500DC5D40 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,29 @@
 			children = (
 				B63951A91EC61FEB002CE685 /* AppDelegate.swift */,
 				B63951AB1EC61FEB002CE685 /* ViewController.swift */,
+				B65FB48D1ECA1C7F00374132 /* ViewLogin.swift */,
+				B65FB48F1ECAE05D00374132 /* ViewMath.swift */,
 				B63951AD1EC61FEB002CE685 /* Main.storyboard */,
 				B63951B01EC61FEB002CE685 /* Assets.xcassets */,
 				B63951B21EC61FEB002CE685 /* LaunchScreen.storyboard */,
 				B63951B51EC61FEB002CE685 /* Info.plist */,
+				B6B75BCC1ECA094600DC5D40 /* Resources */,
 			);
 			path = PushView;
+			sourceTree = "<group>";
+		};
+		B6B75BCC1ECA094600DC5D40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B65FB4911ECAE14B00374132 /* board.png */,
+				B65FB4921ECAE14B00374132 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				B65FB4931ECAE14B00374132 /* note1.png */,
+				B65FB4941ECAE14B00374132 /* note2.png */,
+				B65FB4951ECAE14B00374132 /* note3.png */,
+				B6B75BCD1ECA097500DC5D40 /* zing-mp3.jpg */,
+				B65FB48B1ECA1BF100374132 /* background1.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +158,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65FB4991ECAE14B00374132 /* note2.png in Resources */,
+				B6B75BCE1ECA097500DC5D40 /* zing-mp3.jpg in Resources */,
 				B63951B41EC61FEB002CE685 /* LaunchScreen.storyboard in Resources */,
+				B65FB49A1ECAE14B00374132 /* note3.png in Resources */,
+				B65FB4961ECAE14B00374132 /* board.png in Resources */,
+				B65FB4981ECAE14B00374132 /* note1.png in Resources */,
+				B65FB4971ECAE14B00374132 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 				B63951B11EC61FEB002CE685 /* Assets.xcassets in Resources */,
+				B65FB48C1ECA1BF100374132 /* background1.jpg in Resources */,
 				B63951AF1EC61FEB002CE685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63951AC1EC61FEB002CE685 /* ViewController.swift in Sources */,
+				B65FB48E1ECA1C7F00374132 /* ViewLogin.swift in Sources */,
+				B65FB4901ECAE05D00374132 /* ViewMath.swift in Sources */,
 				B63951AA1EC61FEB002CE685 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +343,7 @@
 				B63951BA1EC61FEB002CE685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
